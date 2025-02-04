@@ -59,9 +59,36 @@ h2 {
   border-radius: 5px;
 }
 
+.card--title {
+  text-transform: capitalize;
+}
+
 .card--img {
   display: block;
   margin: 0 auto;
-
+  border-radius: 5px;
+  width: 70%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
+
+.stat--text {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.game--text {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  text-transform: capitalize;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.game--title {
+  margin: 0;
+  text-transform: capitalize;
+}
+ul {
+  list-style-type: none;
+  }
